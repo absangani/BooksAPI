@@ -1,0 +1,25 @@
+{
+  "name": "booksapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshay0240/BooksAPI.git"
+  },
+  "author": "akshay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshay0240/BooksAPI/issues"
+  },
+  "homepage": "https://github.com/akshay0240/BooksAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14"
+  }
+}
