@@ -7,6 +7,7 @@ mongoose.connect('mongodb+srv://User:akshay0240@cluster0.5royq.mongodb.net/stude
    ()=>{
     const app = express();
     app.use(bodyparser.urlencoded({extended:true}));
+    app.use(express.urlencoded({ extended: true }));
     app.use(express.json());
     app.use("/api",route);
     app.listen(process.env.PORT || 3000,()=>{
